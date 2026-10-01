@@ -1,0 +1,48 @@
+LAB 4 — VIBECODING — SCENARIO 21 CHECKERS
+
+CODING TASKS COMPLETED
+1. Capture correctness
+   - Captured opponent piece is removed.
+   - Moving piece remains at destination.
+2. Win and no-move detection
+   - Game ends when a player has no pieces.
+   - Game ends when a player has no legal moves.
+3. Complete checkers rules
+   - Forced capture when any capture exists.
+   - Multi-capture turns.
+   - King movement in both directions.
+   - Promotion on the correct back row.
+4. Move-level feedback
+   - One concise result is shown for each accepted action.
+   - Capture/promotion feedback is included.
+
+TESTS COMPLETED
+- Ordinary moves
+- Captures
+- Multiple captures
+- Forced captures
+- Promotion
+- King movement
+- No-move position
+- Invalid movement/coordinates validation (manual boundary case verified)
+- Quit command (manual and automated smoke test verified)
+
+FILES
+- main.py
+- game.py
+- board.py
+- rules.py
+- requirements.txt
+- test_checkers.py
+
+SUBMISSION ITEMS TO PREPARE
+- 10-second BEFORE video showing the original capture defect.
+- 10-second AFTER video showing fixed capture + at least one new feature.
+- Complete LLM chat-history page link/export.
+- Updated code in the Lab-4 folder/repository as required by the course handout.
+
+IMPORTANT
+- No external dependencies added.
+- No CSV/JSON/SQLite/database persistence added.
+- State remains in memory.
+- Existing modular project structure retained.
